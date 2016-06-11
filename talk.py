@@ -4,10 +4,8 @@ from janome.tokenizer import Tokenizer
 import types
 from pprint import pprint
 from action.receive import Receive
-import pickle
 
-#first_response = input("hello, how do you do > ")
-first_response = 'タワースカイツリー'
+first_response = input("hello, how do you do > ")
 
 t = Tokenizer()
 tokens = t.tokenize(first_response)
